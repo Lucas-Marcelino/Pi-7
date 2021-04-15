@@ -9,5 +9,7 @@ img = cv2.imread('OpenCV_Logo.png', cv2.IMREAD_COLOR)
 
 cv2.namedWindow('Teste opencv')	# Cria uma janela
 cv2.imshow('Teste opencv', img)	# Mostra a janela criada(1º parâmetro) e atribuí a imagem img (2º parâmetro)
-cv2.waitKey() 					# Após criar janela com img, aguarda alguma tecla para break
+cv2.waitKey() 				# Após criar janela com img, aguarda alguma tecla para break
 								# waitKey('milisegundos')
+
+cv2.destroyAllWindows()
