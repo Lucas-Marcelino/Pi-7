@@ -12,4 +12,4 @@ cv2.imshow('Teste opencv', img)	# Mostra a janela criada(1º parâmetro) e atrib
 cv2.waitKey() 				# Após criar janela com img, aguarda alguma tecla para break
 								# waitKey('milisegundos')
 
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() # Coisa séria
